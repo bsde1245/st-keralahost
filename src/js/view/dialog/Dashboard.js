@@ -116,7 +116,7 @@ class Dashboard {
           previewEl.innerHTML = 'Preview';
           previewEl.setAttribute('data-action', 'preview');
           previewEl.target = '_blank';
-          previewEl.href = `https://support.keralahost.in`;
+          previewEl.href = `${templateFolder}/index.html`;
           ui.appendChild(previewEl);
 
           // info
@@ -124,7 +124,7 @@ class Dashboard {
           infoEl.classList.add('fa', 'fa-info');
           infoEl.innerHTML = 'Info';
           infoEl.target = '_blank';
-          infoEl.href = `https://support.keralahost.in`;
+          infoEl.href = `https://github.com/silexlabs/${repo}/blob/gh-pages/${item}/README.md`;
           infoEl.setAttribute('data-action', 'info');
           ui.appendChild(infoEl);
 

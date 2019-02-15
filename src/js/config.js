@@ -82,14 +82,14 @@ silex.Config.CROWD_FUNDING = 'http://crowdfunding.silex.me/';
  * Link of the menu
  * @const
  */
-silex.Config.ISSUES_SILEX = 'https://support.keralahost.in';
+silex.Config.ISSUES_SILEX = 'https://github.com/silexlabs/Silex/issues?state=open';
 
 
 /**
  * Link of the menu
  * @const
  */
-silex.Config.DOWNLOADS_TEMPLATE_SILEX = 'https://support.keralahost.in';
+silex.Config.DOWNLOADS_TEMPLATE_SILEX = 'https://github.com/silexlabs/Silex/issues?labels=template&state=open';
 
 
 /**

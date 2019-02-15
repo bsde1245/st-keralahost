@@ -1,6 +1,6 @@
 {
   "apps" : [{
-    "name"        : "Silex",
+    "name"        : "Keralahost",
     "script"      : "dist/server/silex_web.js",
     "watch"       : "dist/server/",
     "env": {
